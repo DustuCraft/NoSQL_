@@ -1,0 +1,63 @@
+ECHO "1. СОЗДАНИЕ СЕССИЙ (Hash) + TTL"
+HSET session:s1001 user_id "5001" role "student" language "ru" last_section "course:CS101"
+EXPIRE session:s1001 1800
+HSET session:s1002 user_id "5002" role "student" language "en" last_section "schedule"
+EXPIRE session:s1002 1800
+HSET session:s2001 user_id "7001" role "teacher" language "ru" last_section "course:CS101"
+EXPIRE session:s2001 1800
+
+ECHO "2. КЭШ ДИСЦИПЛИН (String, JSON) + TTL"
+SET cache:course:CS101 "{\"title\":\"Базы данных\",\"teacher_id\":7001,\"credits\":5}"
+EXPIRE cache:course:CS101 600
+SET cache:course:MA201 "{\"title\":\"Математический анализ\",\"teacher_id\":7002,\"credits\":6}"
+EXPIRE cache:course:MA201 600
+
+ECHO "3. КЭШ РАСПИСАНИЯ + ИНДЕКС ПО АУДИТОРИИ"
+SET cache:schedule:group_IS21 "{\"mon\":[{\"course\":\"CS101\",\"room\":\"A-305\",\"time\":\"09:00\"}]}"
+EXPIRE cache:schedule:group_IS21 300
+SADD index:schedule:room:A-305 "cache:schedule:group_IS21"
+
+ECHO "4. ПОСЛЕДНИЕ ПРОСМОТРЕННЫЕ ДИСЦИПЛИНЫ (List, максимум 5)"
+LPUSH recent:student:5001 "CS101"
+LPUSH recent:student:5001 "MA201"
+LPUSH recent:student:5001 "CS101"
+LTRIM recent:student:5001 0 4
+
+ECHO "5. АКТИВНЫЕ ПОЛЬЗОВАТЕЛИ ДИСЦИПЛИНЫ (Set) + TTL"
+SADD course:CS101:online "5001" "5002" "7001"
+EXPIRE course:CS101:online 900
+
+ECHO "ЗАПРОС 1: сессия студента"
+HGETALL session:s1001
+ECHO "ЗАПРОС 2: кэш дисциплины"
+GET cache:course:CS101
+ECHO "ЗАПРОС 3: TTL сессии"
+TTL session:s1001
+ECHO "ЗАПРОС 4: последние просмотренные дисциплины"
+LRANGE recent:student:5001 0 -1
+ECHO "ЗАПРОС 5: активные пользователи дисциплины"
+SMEMBERS course:CS101:online
+
+ECHO "ИЗМЕНЕНИЕ: смена языка интерфейса"
+HSET session:s1001 language "en"
+HGET session:s1001 language
+EXPIRE session:s1001 1800
+
+ECHO "УДАЛЕНИЕ: завершение сессии s1002"
+SREM course:CS101:online "5002"
+DEL session:s1002
+EXISTS session:s1002
+
+ECHO "АНАЛИТИКА: количество активных пользователей"
+SCARD course:CS101:online
+SISMEMBER course:CS101:online "5001"
+
+ECHO "ИНВАЛИДАЦИЯ РАСПИСАНИЯ: аудитория A-305 заменена на B-112"
+SMEMBERS index:schedule:room:A-305
+DEL cache:schedule:group_IS21
+DEL index:schedule:room:A-305
+SET cache:schedule:group_IS21 "{\"mon\":[{\"course\":\"CS101\",\"room\":\"B-112\",\"time\":\"09:00\"}]}"
+EXPIRE cache:schedule:group_IS21 300
+SADD index:schedule:room:B-112 "cache:schedule:group_IS21"
+EXISTS index:schedule:room:A-305
+GET cache:schedule:group_IS21

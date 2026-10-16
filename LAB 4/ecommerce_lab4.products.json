@@ -1,0 +1,447 @@
+[{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954136"
+  },
+  "productId": 101,
+  "name": "Laptop Lenovo Pro",
+  "category": "Notebook",
+  "price": 420000,
+  "stock": 15,
+  "rating": 4.7,
+  "tags": [
+    "office",
+    "programming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954137"
+  },
+  "productId": 102,
+  "name": "Laptop ASUS ROG",
+  "category": "Notebook",
+  "price": 520000,
+  "stock": 8,
+  "rating": 4.8,
+  "tags": [
+    "gaming",
+    "programming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954138"
+  },
+  "productId": 103,
+  "name": "Phone Samsung S23",
+  "category": "Smartphone",
+  "price": 310000,
+  "stock": 25,
+  "rating": 4.6,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954139"
+  },
+  "productId": 104,
+  "name": "Phone Apple iPhone 15",
+  "category": "Smartphone",
+  "price": 650000,
+  "stock": 12,
+  "rating": 4.9,
+  "tags": [
+    "mobile",
+    "ios"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413a"
+  },
+  "productId": 105,
+  "name": "Tablet iPad Air",
+  "category": "Tablet",
+  "price": 280000,
+  "stock": 20,
+  "rating": 4.7,
+  "tags": [
+    "mobile",
+    "apple"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413b"
+  },
+  "productId": 106,
+  "name": "Monitor Dell 27",
+  "category": "Monitor",
+  "price": 150000,
+  "stock": 30,
+  "rating": 4.5,
+  "tags": [
+    "office",
+    "display"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413c"
+  },
+  "productId": 107,
+  "name": "Keyboard Keychron",
+  "category": "Accessories",
+  "price": 45000,
+  "stock": 50,
+  "rating": 4.8,
+  "tags": [
+    "office",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413d"
+  },
+  "productId": 108,
+  "name": "Mouse Logitech MX",
+  "category": "Accessories",
+  "price": 35000,
+  "stock": 0,
+  "rating": 4.9,
+  "tags": [
+    "office",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413e"
+  },
+  "productId": 109,
+  "name": "Headphones Sony",
+  "category": "Audio",
+  "price": 120000,
+  "stock": 18,
+  "rating": 4.6,
+  "tags": [
+    "audio",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95413f"
+  },
+  "productId": 110,
+  "name": "Smartwatch Apple Watch",
+  "category": "Watch",
+  "price": 190000,
+  "stock": 10,
+  "rating": 4.7,
+  "tags": [
+    "mobile",
+    "apple"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954140"
+  },
+  "productId": 111,
+  "name": "Laptop HP Spectre",
+  "category": "Notebook",
+  "price": 480000,
+  "stock": 5,
+  "rating": 4.4,
+  "tags": [
+    "office",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954141"
+  },
+  "productId": 112,
+  "name": "Laptop MSI Gaming",
+  "category": "Notebook",
+  "price": 610000,
+  "stock": 6,
+  "rating": 4.7,
+  "tags": [
+    "gaming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954142"
+  },
+  "productId": 113,
+  "name": "Phone Xiaomi 13",
+  "category": "Smartphone",
+  "price": 210000,
+  "stock": 40,
+  "rating": 4.3,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954143"
+  },
+  "productId": 114,
+  "name": "Phone Google Pixel 8",
+  "category": "Smartphone",
+  "price": 340000,
+  "stock": 14,
+  "rating": 4.8,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954144"
+  },
+  "productId": 115,
+  "name": "Tablet Samsung Tab",
+  "category": "Tablet",
+  "price": 230000,
+  "stock": 11,
+  "rating": 4.2,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954145"
+  },
+  "productId": 116,
+  "name": "Monitor LG UltraWide",
+  "category": "Monitor",
+  "price": 210000,
+  "stock": 7,
+  "rating": 4.6,
+  "tags": [
+    "display",
+    "gaming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954146"
+  },
+  "productId": 117,
+  "name": "Monitor Samsung Odyssey",
+  "category": "Monitor",
+  "price": 290000,
+  "stock": 4,
+  "rating": 4.9,
+  "tags": [
+    "display",
+    "gaming"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954147"
+  },
+  "productId": 118,
+  "name": "Webcam Logitech 4K",
+  "category": "Accessories",
+  "price": 60000,
+  "stock": 22,
+  "rating": 4.4,
+  "tags": [
+    "office",
+    "video"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954148"
+  },
+  "productId": 119,
+  "name": "Microphone Blue Yeti",
+  "category": "Audio",
+  "price": 55000,
+  "stock": 15,
+  "rating": 4.5,
+  "tags": [
+    "audio",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954149"
+  },
+  "productId": 120,
+  "name": "Speaker JBL Charge",
+  "category": "Audio",
+  "price": 48000,
+  "stock": 35,
+  "rating": 4.7,
+  "tags": [
+    "audio",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414a"
+  },
+  "productId": 121,
+  "name": "Laptop Acer Aspire",
+  "category": "Notebook",
+  "price": 250000,
+  "stock": 19,
+  "rating": 4.1,
+  "tags": [
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414b"
+  },
+  "productId": 122,
+  "name": "Laptop Macbook Air M2",
+  "category": "Notebook",
+  "price": 580000,
+  "stock": 9,
+  "rating": 4.9,
+  "tags": [
+    "office",
+    "apple",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414c"
+  },
+  "productId": 123,
+  "name": "Phone OnePlus 11",
+  "category": "Smartphone",
+  "price": 290000,
+  "stock": 16,
+  "rating": 4.5,
+  "tags": [
+    "mobile",
+    "android"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414d"
+  },
+  "productId": 124,
+  "name": "SSD Samsung 1TB",
+  "category": "Components",
+  "price": 42000,
+  "stock": 60,
+  "rating": 4.9,
+  "tags": [
+    "gadgets",
+    "storage"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414e"
+  },
+  "productId": 125,
+  "name": "RAM Corsair 16GB",
+  "category": "Components",
+  "price": 28000,
+  "stock": 45,
+  "rating": 4.6,
+  "tags": [
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95414f"
+  },
+  "productId": 126,
+  "name": "GPU Nvidia RTX 4070",
+  "category": "Components",
+  "price": 380000,
+  "stock": 3,
+  "rating": 4.8,
+  "tags": [
+    "gaming",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954150"
+  },
+  "productId": 127,
+  "name": "Router ASUS WiFi 6",
+  "category": "Network",
+  "price": 32000,
+  "stock": 28,
+  "rating": 4.3,
+  "tags": [
+    "office",
+    "network"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954151"
+  },
+  "productId": 128,
+  "name": "PowerBank Anker",
+  "category": "Accessories",
+  "price": 18000,
+  "stock": 80,
+  "rating": 4.7,
+  "tags": [
+    "mobile",
+    "gadgets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954152"
+  },
+  "productId": 129,
+  "name": "Chair Herman Miller",
+  "category": "Furniture",
+  "price": 550000,
+  "stock": 2,
+  "rating": 5,
+  "tags": [
+    "office",
+    "premium"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954153"
+  },
+  "productId": 130,
+  "name": "Desk Standing Electric",
+  "category": "Furniture",
+  "price": 180000,
+  "stock": 5,
+  "rating": 4.6,
+  "tags": [
+    "office"
+  ]
+}]

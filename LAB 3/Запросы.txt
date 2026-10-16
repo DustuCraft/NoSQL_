@@ -1,0 +1,141 @@
+1. $match — жанр
+
+db.tracks.aggregate([
+  { $match: { genre: "Pop" } }
+])
+
+2. $match — число прослушиваний
+
+db.tracks.aggregate([
+  { $match: { plays: { $gt: 500000 } } }
+])
+
+3. $match — диапазон + boolean
+
+db.tracks.aggregate([
+  { $match: { duration: { $gte: 180, $lte: 240 }, explicit: false } }
+])
+
+4. $project — без вычислений
+
+db.tracks.aggregate([
+  { $project: { _id: 0, title: 1, genre: 1, duration: 1 } },
+  { $limit: 5 }
+])
+
+5. $project — вычисляемое поле
+
+db.tracks.aggregate([
+  { $project: {
+        _id: 0,
+        title: 1,
+        durationMinutes: { $round: [ { $divide: [ "$duration", 60 ] }, 2 ] }
+  } },
+  { $limit: 5 }
+])
+
+6. group№1—пожанру(avg, $sum)
+
+db.tracks.aggregate([
+  { $group: {
+        _id: "$genre",
+        avgDuration: { $avg: "$duration" },
+        totalPlays:  { $sum: "$plays" },
+        count:       { $sum: 1 }
+  } },
+  { $sort: { totalPlays: -1 } }
+])
+
+7. group№2—поисполнителю(max, $min)
+
+db.tracks.aggregate([
+  { $group: {
+        _id: "$artistId",
+        maxPlays:    { $max: "$plays" },
+        minDuration: { $min: "$duration" },
+        trackCount:  { $sum: 1 }
+  } },
+  { $sort: { maxPlays: -1 } }
+])
+
+8. $sort + $limit
+
+db.tracks.aggregate([
+  { $sort: { plays: -1 } },
+  { $limit: 5 },
+  { $project: { _id: 0, title: 1, plays: 1 } }
+])
+
+9. $unwind массива tags
+
+db.tracks.aggregate([
+  { $unwind: "$tags" },
+  { $group: { _id: "$tags", count: { $sum: 1 } } },
+  { $sort: { count: -1 } }
+])
+
+10. $lookup tracks → artists
+
+db.tracks.aggregate([
+  { $sort: { plays: -1 } },
+  { $limit: 5 },
+  { $lookup: {
+        from: "artists",
+        localField: "artistId",
+        foreignField: "_id",
+        as: "artistInfo"
+  } },
+  { $unwind: "$artistInfo" },
+  { $project: {
+        _id: 0,
+        title: 1,
+        artist: "$artistInfo.name",
+        genre: 1,
+        plays: 1
+  } }
+])
+
+11. Составной pipeline из 5 этапов
+
+db.tracks.aggregate([
+  { $match: { genre: "Pop" } },
+  { $lookup: {
+        from: "artists",
+        localField: "artistId",
+        foreignField: "_id",
+        as: "artistInfo"
+  } },
+  { $unwind: "$artistInfo" },
+  { $group: {
+        _id: "$artistInfo.country",
+        totalPlays: { $sum: "$plays" },
+        count: { $sum: 1 }
+  } },
+  { $sort: { totalPlays: -1 } }
+])
+
+12. $lookup вторая пара коллекций — playlists → tracks → artists
+
+db.playlists.aggregate([
+  { $match: { _id: "pl_1" } },
+  { $lookup: {
+        from: "tracks",
+        localField: "trackIds",
+        foreignField: "_id",
+        as: "trackDocs"
+  } },
+  { $unwind: "$trackDocs" },
+  { $lookup: {
+        from: "artists",
+        localField: "trackDocs.artistId",
+        foreignField: "_id",
+        as: "artistDocs"
+  } },
+  { $unwind: "$artistDocs" },
+  { $project: {
+        _id: 0,
+        playlist: "$name",
+        track: "$trackDocs.title",
+        artist: "$artistDocs.name"
+  } }
+])

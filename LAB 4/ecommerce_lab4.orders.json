@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954157"
+  },
+  "orderId": "ORD-1",
+  "customerId": 501,
+  "productId": 101,
+  "total": 420000,
+  "status": "paid"
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954158"
+  },
+  "orderId": "ORD-2",
+  "customerId": 501,
+  "productId": 108,
+  "total": 35000,
+  "status": "paid"
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba954159"
+  },
+  "orderId": "ORD-3",
+  "customerId": 502,
+  "productId": 103,
+  "total": 310000,
+  "status": "new"
+},
+{
+  "_id": {
+    "$oid": "6ab0eb35d46e16feba95415a"
+  },
+  "orderId": "ORD-4",
+  "customerId": 503,
+  "productId": 122,
+  "total": 580000,
+  "status": "paid"
+}]
