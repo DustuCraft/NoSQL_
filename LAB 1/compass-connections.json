@@ -1,0 +1,27 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "31c066ae-a860-4f04-b353-4281e10bec3d",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1788768831652"
+        }
+      },
+      "favorite": {
+        "name": "Dust",
+        "color": "color5"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjoxLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
