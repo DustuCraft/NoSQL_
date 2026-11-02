@@ -1,0 +1,9 @@
+{
+  "created_local": "2026-11-02T23:44:54.003+05:00",
+  "source": "mongodb://127.0.0.1:27102/?replicaSet=rsLab10",
+  "db": "university_lab10",
+  "collection": "publications",
+  "documents": 22,
+  "checksum": "417181f8f273993f450960617ff74addc94d84c1a1df02590b25f819f8dfa2e8",
+  "note": "логический дамп (find -> JSON), mongodump в среде отсутствует"
+}

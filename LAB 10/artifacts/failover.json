@@ -1,0 +1,36 @@
+{
+  "initial_primary": 27101,
+  "new_primary": 27102,
+  "t0_local": "2026-11-02T23:44:46.342+05:00",
+  "t1_local": "2026-11-02T23:44:46.513+05:00",
+  "t0_utc": "2026-11-02T18:44:46.342+00:00",
+  "rto_seconds": 0.172,
+  "down_detected_seconds": 0.016,
+  "documents_before": 21,
+  "documents_after": 22,
+  "control_docs_after": 21,
+  "checksum_before": "51aabcd0c3d735a508c64762439fbc1bb09a8348f8fdbca244420e5452596a1b",
+  "checksum_after": "51aabcd0c3d735a508c64762439fbc1bb09a8348f8fdbca244420e5452596a1b",
+  "control_match": true,
+  "risky_write_ok": true,
+  "risky_survived": true,
+  "write_error_in_outage": "not master (code 10107)",
+  "roles_after": [
+    {
+      "name": "127.0.0.1:27101",
+      "state": "SECONDARY",
+      "health": 1.0
+    },
+    {
+      "name": "127.0.0.1:27102",
+      "state": "PRIMARY",
+      "health": 1.0
+    },
+    {
+      "name": "127.0.0.1:27103",
+      "state": "SECONDARY",
+      "health": 1.0
+    }
+  ],
+  "log_new_primary_election": "2026-11-02T23:44:46.376+05:00"
+}

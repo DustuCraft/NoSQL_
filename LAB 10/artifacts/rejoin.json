@@ -1,0 +1,24 @@
+{
+  "state": "SECONDARY",
+  "health": 1.0,
+  "optime": "2026-11-02 18:44:46+00:00",
+  "docs_read": 22,
+  "roles": [
+    {
+      "name": "127.0.0.1:27101",
+      "state": "SECONDARY",
+      "health": 1.0
+    },
+    {
+      "name": "127.0.0.1:27102",
+      "state": "PRIMARY",
+      "health": 1.0
+    },
+    {
+      "name": "127.0.0.1:27103",
+      "state": "SECONDARY",
+      "health": 1.0
+    }
+  ],
+  "checksum_after_rejoin": "417181f8f273993f450960617ff74addc94d84c1a1df02590b25f819f8dfa2e8"
+}

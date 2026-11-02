@@ -1,0 +1,436 @@
+[
+ {
+  "_id": "6ae8da1dcb6058d3584df4cc",
+  "pubId": "PUB-0001",
+  "authorId": "u-1001",
+  "type": "post",
+  "text": "Итоги студенческой конференции (синтетическая запись №1)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T09:07:00Z",
+  "likes": 10,
+  "comments": 1,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "a0231221ef297446"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4cd",
+  "pubId": "PUB-0002",
+  "authorId": "u-1002",
+  "type": "photo",
+  "text": "Новый курс по базам данных (синтетическая запись №2)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "photo-type"
+  ],
+  "createdAt": "2026-11-02T09:14:00Z",
+  "likes": 20,
+  "comments": 2,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "5c2223a10e5bf106"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4ce",
+  "pubId": "PUB-0003",
+  "authorId": "u-1003",
+  "type": "video",
+  "text": "Фотоотчёт с хакатона (синтетическая запись №3)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "video-type"
+  ],
+  "createdAt": "2026-11-02T09:21:00Z",
+  "likes": 30,
+  "comments": 3,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "315f059cbee4ee36"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4cf",
+  "pubId": "PUB-0004",
+  "authorId": "u-1004",
+  "type": "repost",
+  "text": "Запись вебинара по MongoDB (синтетическая запись №4)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "repost-type"
+  ],
+  "createdAt": "2026-11-02T09:28:00Z",
+  "likes": 40,
+  "comments": 4,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "049cd97b90ace0e9"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d0",
+  "pubId": "PUB-0005",
+  "authorId": "u-1005",
+  "type": "post",
+  "text": "Анонс лабораторной недели (синтетическая запись №5)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T10:35:00Z",
+  "likes": 50,
+  "comments": 0,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "4a68f5ace7317344"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d1",
+  "pubId": "PUB-0006",
+  "authorId": "u-1006",
+  "type": "photo",
+  "text": "Подборка задач по алгоритмам (синтетическая запись №6)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "photo-type"
+  ],
+  "createdAt": "2026-11-02T10:42:00Z",
+  "likes": 60,
+  "comments": 1,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "6216b7350b9a458f"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d2",
+  "pubId": "PUB-0007",
+  "authorId": "u-1007",
+  "type": "video",
+  "text": "Интервью с выпускником (синтетическая запись №7)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "video-type"
+  ],
+  "createdAt": "2026-11-02T10:49:00Z",
+  "likes": 70,
+  "comments": 2,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "49818e64e980c0c2"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d3",
+  "pubId": "PUB-0008",
+  "authorId": "u-1001",
+  "type": "repost",
+  "text": "Итоги спортивного турнира (синтетическая запись №8)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "repost-type"
+  ],
+  "createdAt": "2026-11-02T10:56:00Z",
+  "likes": 80,
+  "comments": 3,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "adbf3a7020b81b71"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d4",
+  "pubId": "PUB-0009",
+  "authorId": "u-1002",
+  "type": "post",
+  "text": "Обзор нового корпуса (синтетическая запись №9)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T11:03:00Z",
+  "likes": 90,
+  "comments": 4,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "2938a6a5911ffd0d"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d5",
+  "pubId": "PUB-0010",
+  "authorId": "u-1003",
+  "type": "photo",
+  "text": "Статья о репликации данных (синтетическая запись №10)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "photo-type"
+  ],
+  "createdAt": "2026-11-02T11:10:00Z",
+  "likes": 100,
+  "comments": 0,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "2b9985f54a13ab2e"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d6",
+  "pubId": "PUB-0011",
+  "authorId": "u-1004",
+  "type": "video",
+  "text": "Видео с защиты проектов (синтетическая запись №11)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "video-type"
+  ],
+  "createdAt": "2026-11-02T11:17:00Z",
+  "likes": 110,
+  "comments": 1,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "13121524e8e152d9"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d7",
+  "pubId": "PUB-0012",
+  "authorId": "u-1005",
+  "type": "repost",
+  "text": "Советы по подготовке к экзамену (синтетическая запись №12)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "repost-type"
+  ],
+  "createdAt": "2026-11-02T11:24:00Z",
+  "likes": 120,
+  "comments": 2,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "e57b7df858aa8a72"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d8",
+  "pubId": "PUB-0013",
+  "authorId": "u-1006",
+  "type": "post",
+  "text": "Репортаж с дня открытых дверей (синтетическая запись №13)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T12:31:00Z",
+  "likes": 130,
+  "comments": 3,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "ccaf3bec5c5a61e7"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4d9",
+  "pubId": "PUB-0014",
+  "authorId": "u-1007",
+  "type": "photo",
+  "text": "Новости научного кружка (синтетическая запись №14)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "photo-type"
+  ],
+  "createdAt": "2026-11-02T12:38:00Z",
+  "likes": 140,
+  "comments": 4,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "f3e61c1954d5c238"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4da",
+  "pubId": "PUB-0015",
+  "authorId": "u-1001",
+  "type": "video",
+  "text": "Гайд по резервному копированию (синтетическая запись №15)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "video-type"
+  ],
+  "createdAt": "2026-11-02T12:45:00Z",
+  "likes": 150,
+  "comments": 0,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "bfd84ba02265ba82"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4db",
+  "pubId": "PUB-0016",
+  "authorId": "u-1002",
+  "type": "repost",
+  "text": "Фото с выездной практики (синтетическая запись №16)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "repost-type"
+  ],
+  "createdAt": "2026-11-02T12:52:00Z",
+  "likes": 160,
+  "comments": 1,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "8a1dfd6392220fba"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4dc",
+  "pubId": "PUB-0017",
+  "authorId": "u-1003",
+  "type": "post",
+  "text": "Заметка о стажировках (синтетическая запись №17)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T13:59:00Z",
+  "likes": 170,
+  "comments": 2,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "008bc289a2b8ba58"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4dd",
+  "pubId": "PUB-0018",
+  "authorId": "u-1004",
+  "type": "photo",
+  "text": "Разбор ошибок в курсовых (синтетическая запись №18)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "photo-type"
+  ],
+  "createdAt": "2026-11-02T13:06:00Z",
+  "likes": 180,
+  "comments": 3,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "02fad8fdf83b4dbe"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4de",
+  "pubId": "PUB-0019",
+  "authorId": "u-1005",
+  "type": "video",
+  "text": "Календарь мероприятий на семестр (синтетическая запись №19)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "video-type"
+  ],
+  "createdAt": "2026-11-02T13:13:00Z",
+  "likes": 190,
+  "comments": 4,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "4daf151cedf1c6a1"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4df",
+  "pubId": "PUB-0020",
+  "authorId": "u-1006",
+  "type": "repost",
+  "text": "Итоги конкурса проектов (синтетическая запись №20)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "repost-type"
+  ],
+  "createdAt": "2026-11-02T13:20:00Z",
+  "likes": 200,
+  "comments": 0,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "d297f635dcd0b178"
+ },
+ {
+  "_id": "6ae8da1dcb6058d3584df4e0",
+  "pubId": "PUB-0021",
+  "authorId": "u-1007",
+  "type": "post",
+  "text": "Памятка по академической честности (синтетическая запись №21)",
+  "tags": [
+   "lab10",
+   "synthetic",
+   "post-type"
+  ],
+  "createdAt": "2026-11-02T14:27:00Z",
+  "likes": 210,
+  "comments": 1,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1,
+  "contentHash": "a341e004c303006a"
+ },
+ {
+  "_id": "6ae8da1ecb6058d3584df4e1",
+  "pubId": "PUB-0022",
+  "authorId": "u-1007",
+  "type": "post",
+  "text": "Запись с w:1 непосредственно перед отказом primary",
+  "createdAt": "2026-11-02T12:00:00Z",
+  "likes": 0,
+  "comments": 0,
+  "visibility": "public",
+  "status": "published",
+  "schemaVersion": 1,
+  "rev": 1
+ }
+]
