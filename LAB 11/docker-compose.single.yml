@@ -1,0 +1,6 @@
+# Одиночный mongod: только для проверки подключения. Это НЕ шардированный кластер.
+services:
+  mongo:
+    image: mongo:7
+    container_name: lab11_single
+    ports: ["27017:27017"]

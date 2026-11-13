@@ -1,0 +1,13 @@
+block,name,docs,queries,doc_max_mean,query_max_mean,query_max_min
+base,branch_id/uniform,"[4800, 4800, 2400]","[11947, 12018, 6035]",1.2,1.2,1.99
+base,branch_id/hot,"[4800, 4800, 2400]","[22828, 4822, 2350]",1.2,2.28,9.71
+base,hashed_account_id/uniform,"[3866, 3805, 4329]","[9608, 9435, 10957]",1.08,1.1,1.16
+base,hashed_account_id/hot,"[3866, 3805, 4329]","[9261, 9774, 10965]",1.08,1.1,1.18
+base,range_operation_id/uniform,"[4000, 4000, 4000]","[10046, 9958, 9996]",1.0,1.0,1.01
+base,range_operation_id/hot,"[4000, 4000, 4000]","[9967, 9985, 10048]",1.0,1.0,1.01
+step4,branch_id/uniform,"[10217, 1208, 575]","[25455, 3187, 1358]",2.55,2.55,18.74
+step4,branch_id/hot,"[10217, 1208, 575]","[28219, 1213, 568]",2.55,2.82,49.68
+step4,hashed_account_id/uniform,"[3866, 3805, 4329]","[9677, 9523, 10800]",1.08,1.08,1.13
+step4,hashed_account_id/hot,"[3866, 3805, 4329]","[9818, 9487, 10695]",1.08,1.07,1.13
+step4,hashed_branch+account/uniform,"[3919, 4141, 3940]","[9778, 10269, 9953]",1.04,1.03,1.05
+step4,hashed_branch+account/hot,"[3919, 4141, 3940]","[9609, 10499, 9892]",1.04,1.05,1.09

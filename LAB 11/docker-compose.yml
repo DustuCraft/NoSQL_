@@ -1,0 +1,25 @@
+# Учебный шардированный кластер: 1 config server, 3 шарда, 1 mongos.
+# Только для локальной учебной работы (без авторизации).
+services:
+  cfg1:
+    image: mongo:7
+    command: mongod --configsvr --replSet cfgrs --port 27019 --bind_ip_all
+    ports: ["27019:27019"]
+  shard1:
+    image: mongo:7
+    command: mongod --shardsvr --replSet shard1rs --port 27018 --bind_ip_all
+    ports: ["27021:27018"]
+  shard2:
+    image: mongo:7
+    command: mongod --shardsvr --replSet shard2rs --port 27018 --bind_ip_all
+    ports: ["27022:27018"]
+  shard3:
+    image: mongo:7
+    command: mongod --shardsvr --replSet shard3rs --port 27018 --bind_ip_all
+    ports: ["27023:27018"]
+  mongos:
+    image: mongo:7
+    command: mongos --configdb cfgrs/cfg1:27019 --bind_ip_all --port 27017
+    ports: ["27017:27017"]
+    depends_on: [cfg1, shard1, shard2, shard3]
+    restart: unless-stopped

@@ -1,0 +1,198 @@
+{
+  "base": [
+    {
+      "name": "branch_id/uniform",
+      "docs": [
+        4800,
+        4800,
+        2400
+      ],
+      "queries": [
+        11947,
+        12018,
+        6035
+      ],
+      "doc_max_mean": 1.2,
+      "query_max_mean": 1.2,
+      "query_max_min": 1.99
+    },
+    {
+      "name": "branch_id/hot",
+      "docs": [
+        4800,
+        4800,
+        2400
+      ],
+      "queries": [
+        22828,
+        4822,
+        2350
+      ],
+      "doc_max_mean": 1.2,
+      "query_max_mean": 2.28,
+      "query_max_min": 9.71
+    },
+    {
+      "name": "hashed_account_id/uniform",
+      "docs": [
+        3866,
+        3805,
+        4329
+      ],
+      "queries": [
+        9608,
+        9435,
+        10957
+      ],
+      "doc_max_mean": 1.08,
+      "query_max_mean": 1.1,
+      "query_max_min": 1.16
+    },
+    {
+      "name": "hashed_account_id/hot",
+      "docs": [
+        3866,
+        3805,
+        4329
+      ],
+      "queries": [
+        9261,
+        9774,
+        10965
+      ],
+      "doc_max_mean": 1.08,
+      "query_max_mean": 1.1,
+      "query_max_min": 1.18
+    },
+    {
+      "name": "range_operation_id/uniform",
+      "docs": [
+        4000,
+        4000,
+        4000
+      ],
+      "queries": [
+        10046,
+        9958,
+        9996
+      ],
+      "doc_max_mean": 1.0,
+      "query_max_mean": 1.0,
+      "query_max_min": 1.01
+    },
+    {
+      "name": "range_operation_id/hot",
+      "docs": [
+        4000,
+        4000,
+        4000
+      ],
+      "queries": [
+        9967,
+        9985,
+        10048
+      ],
+      "doc_max_mean": 1.0,
+      "query_max_mean": 1.0,
+      "query_max_min": 1.01
+    }
+  ],
+  "step4": [
+    {
+      "name": "branch_id/uniform",
+      "docs": [
+        10217,
+        1208,
+        575
+      ],
+      "queries": [
+        25455,
+        3187,
+        1358
+      ],
+      "doc_max_mean": 2.55,
+      "query_max_mean": 2.55,
+      "query_max_min": 18.74
+    },
+    {
+      "name": "branch_id/hot",
+      "docs": [
+        10217,
+        1208,
+        575
+      ],
+      "queries": [
+        28219,
+        1213,
+        568
+      ],
+      "doc_max_mean": 2.55,
+      "query_max_mean": 2.82,
+      "query_max_min": 49.68
+    },
+    {
+      "name": "hashed_account_id/uniform",
+      "docs": [
+        3866,
+        3805,
+        4329
+      ],
+      "queries": [
+        9677,
+        9523,
+        10800
+      ],
+      "doc_max_mean": 1.08,
+      "query_max_mean": 1.08,
+      "query_max_min": 1.13
+    },
+    {
+      "name": "hashed_account_id/hot",
+      "docs": [
+        3866,
+        3805,
+        4329
+      ],
+      "queries": [
+        9818,
+        9487,
+        10695
+      ],
+      "doc_max_mean": 1.08,
+      "query_max_mean": 1.07,
+      "query_max_min": 1.13
+    },
+    {
+      "name": "hashed_branch+account/uniform",
+      "docs": [
+        3919,
+        4141,
+        3940
+      ],
+      "queries": [
+        9778,
+        10269,
+        9953
+      ],
+      "doc_max_mean": 1.04,
+      "query_max_mean": 1.03,
+      "query_max_min": 1.05
+    },
+    {
+      "name": "hashed_branch+account/hot",
+      "docs": [
+        3919,
+        4141,
+        3940
+      ],
+      "queries": [
+        9609,
+        10499,
+        9892
+      ],
+      "doc_max_mean": 1.04,
+      "query_max_mean": 1.05,
+      "query_max_min": 1.09
+    }
+  ]
+}
