@@ -1,0 +1,18 @@
+{
+  "write_cost": [
+    {
+      "mode": "no_index",
+      "batch": 5000,
+      "insert_ms_median": 15.473000000383763
+    },
+    {
+      "mode": "with_index",
+      "batch": 5000,
+      "insert_ms_median": 29.760499999611056
+    }
+  ],
+  "index_size": {
+    "lab_index_bytes": 294912,
+    "total_index_bytes": 397312
+  }
+}

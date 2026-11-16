@@ -1,0 +1,10 @@
+{
+  "mongodb_version": "8.2.0",
+  "pymongo_version": "4.20.0",
+  "python_version": "3.12.5",
+  "os": "Windows-11-10.0.26300-SP0",
+  "seed": 42,
+  "documents": 50000,
+  "db": "nosql_lab12",
+  "collection": "menu_items"
+}

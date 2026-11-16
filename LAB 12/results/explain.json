@@ -1,0 +1,18 @@
+[
+  {
+    "mode": "no_index",
+    "winningPlan": "COLLSCAN",
+    "totalDocsExamined": 50000,
+    "totalKeysExamined": 0,
+    "executionTimeMillis": 12,
+    "nReturned": 335
+  },
+  {
+    "mode": "with_index",
+    "winningPlan": "FETCH -> IXSCAN",
+    "totalDocsExamined": 335,
+    "totalKeysExamined": 335,
+    "executionTimeMillis": 1,
+    "nReturned": 335
+  }
+]
